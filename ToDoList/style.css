@@ -1,0 +1,54 @@
+.collection {
+  border: none;
+}
+
+.collection .collection-item {
+  background-color: #ffa726;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+
+.item-text {
+  font-size: 20px;
+}
+
+.item {
+  min-height: 30px;
+}
+
+#todo-list:empty:after {
+  content: 'Добавьте новую задачу...';
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  margin: 15px 0 0;
+  font-style: italic;
+}
+
+#mission-completed:empty:after {
+  content: 'Скоро здесь будут твои первые свершения! :)';
+  width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 15px 0 0;
+}
+
+hr {
+  width: 80%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#search::placeholder {
+  color: red;
+}
+
+.btn-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
